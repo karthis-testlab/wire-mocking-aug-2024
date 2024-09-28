@@ -1,0 +1,10 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/welcome"
+	},
+	"response": {
+		"status": "201",
+		"body": "Welcome to the world 0f POST Mocking"
+	}
+}

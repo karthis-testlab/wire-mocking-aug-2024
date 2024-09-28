@@ -1,0 +1,10 @@
+{
+	"request": {
+		"method": "GET",
+		"url": "/api/category"
+	},
+	"response": {
+		"status": "200",
+		"body": "Welcome to Gatling Demostore API"
+	}
+}

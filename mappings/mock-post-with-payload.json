@@ -1,0 +1,27 @@
+{
+	"request": {
+		"method": "POST",
+		"url": "/welcome",
+		"headers": {
+			"Content-Type": {
+				"equalTo": "application/json"
+			},
+			"name": {
+				"equalTo": "Karthikeyan"
+			} 
+		},
+		"bodyPatterns": [{
+			"equalToJson": {
+				"username": "admin",
+				"password": "admin"
+			}
+		}]
+	},
+	"response": {
+		"status": "201",
+		"headers": {
+			"Content-Type": "application/json"
+		},
+		"body": "{ \"status_code\": 200, \"id\": \"weiohsjngjksnegh7454654jafhakgghhg\"}"
+	}
+}
